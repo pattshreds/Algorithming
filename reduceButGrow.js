@@ -14,7 +14,7 @@ const grow = (x) => {
   return sum
 };
 
-// Call the function using [1,2,3,4]
+// Call the function using [1,2,3,4] as the parameter x
 // Expected output: 24
 
 console.log(
