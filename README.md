@@ -1,5 +1,5 @@
 # Algorithm-ing
 
-<h3> Here I will post solutions to algorithms </h3>
+<h2> Here I will post solutions to algorithms I solve.</h2>
 <u>
   
