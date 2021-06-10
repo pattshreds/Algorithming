@@ -1,17 +1,17 @@
 // 8kyu
 
-// multiply all items in an array of numbers and return the sum.
+// multiply all items in an array of numbers and return the product.
 
 const grow = (x) => {
-  // Define sum. Since we're mutiplying, use 1 so as to not return 0.
-  let sum = 1;
+  // Define product. Since we're mutiplying, use 1 so as to not return 0.
+  let product = 1;
   // Loop through the array
   for (let i=0; i < x.length; i++) {
-    // Do the maths. Sum equals sum times each element.
-    sum *= x[i]
+    // Do the maths. Product equals product times each element.
+    product *= x[i]
   }
-  // Out of the loop, return the total value of Sum.
-  return sum
+  // Out of the loop, return the total value of product.
+  return product
 };
 
 // Call the function using [1,2,3,4] as the parameter x

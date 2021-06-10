@@ -11,7 +11,7 @@ function sumDigits(number) {
   return num
 }
 
-// Call function with number parameter.
+// Call function with numbers parameter.
 console.log(
   sumDigits(-82)
 );
