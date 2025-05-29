@@ -12,16 +12,18 @@ const romanToInt = (s) => {
     };
 
     let result = 0;
+    console.log(s);
 
     for (let i = 0; i < s.length; i++) {
         const current = romanNumeralValues[s[i]];
         const next = romanNumeralValues[s[i + 1]];
         console.log(`
-            current: ${current}
-            next: ${next}
+            current: ${current}, ${s[i]}
+            next: ${next}, ${s[i + 1]}
             next > current? ${next > current}
             `);
         if (next > current) {
+            // if next > current, subtract and merge ex:(CXLV) current = X, L > X, 50 - 10 = 40, next = V
             result += next - current;
             console.log(`result: ${result}`);
             i++;
